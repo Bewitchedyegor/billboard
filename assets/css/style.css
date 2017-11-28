@@ -1,0 +1,168 @@
+/* general style */
+@font-face {
+    font-family: UaBrandBold;
+    src: url(../fonts/UaBrandbold.otf);
+}
+
+@font-face {
+    font-family: UaBrandBlack;
+    src: url(../fonts/UaBrandblack.otf);
+}
+
+body {
+	background: #074261;
+	overflow-x: hidden;
+}
+
+/* header */
+header {
+	margin-top: 59px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 25px;
+	font-family: 'UaBrandBold', sans-serif;
+	float: left;
+	margin-bottom: 0;
+}
+
+.add {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400; 
+	float: right;
+	opacity: 0.5;
+	transition: .3s;
+	line-height: 28px;
+}
+
+.add:hover {
+	opacity: 1;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.add i {
+	font-size: 20px;
+	float: left;
+	padding: 4px 10px 0;
+}
+
+/* form */
+form {
+	/*margin-top: 50px;*/	
+    padding-top: 19px;
+	clear: both;
+}
+
+button {
+	background: #3d5ed8;
+	cursor: pointer;
+	border: 0;
+	color: #fefefe;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	height: 46px; 
+	/*width: 260px;*/
+	width: 23.4%;
+	vertical-align: top;
+}
+
+.form-control {
+	border: 0;
+	border-radius: 0;
+	background-clip: none;
+}
+
+.form-group input {
+	height: 46px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #282828;
+	font-size: 16px;
+}
+
+.form-group input::-webkit-input-placeholder, 
+.form-group input::-moz-placeholder, 
+.form-group input:-ms-input-placeholder, 
+.form-group input:-moz-placeholder {
+  	color: #808080;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 300;
+  	font-size: 16px;
+}
+
+.form-group i {
+	color: #b2b2b2;
+	font-size: 16px;
+	position: absolute;
+	margin: 16px 0 0 10px;
+}
+
+.form-control, .form-group {
+	display: inline;
+}
+
+#search {
+	/*width: 517px;*/
+	width: 46.6%;
+	padding-left: 16px;
+}
+
+#date {
+	/*width: 120px;*/
+    width: 10.8%;
+}
+
+#city {
+	/*width: 186px;*/
+    width: 16.8%;
+}
+
+#date, #city {
+	padding-left: 28px;
+}
+
+/* footer */
+footer {
+	margin-top: 60px;
+}
+
+ul.monthsList {
+	list-style: none;
+	padding: 0;
+}
+
+.monthsList li {
+	display: block;
+	float: left;
+	height: 30px;
+	color: #457189;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	border-top: 1px solid #457189;
+	cursor: pointer;
+	line-height: 30px;
+	transition: .1s;
+}
+
+.monthsList li.active, .monthsList li:hover {
+	color: #fff;
+	font-weight: 400;
+	border-top: 3px solid #fff;
+}
+
+.monthsList li:hover {
+	font-weight: 300;
+	border-top: 1px solid #fff;
+	transition: .1s;
+}
+
+.monthsList li.active:hover {
+	font-weight: 400;
+	border-top: 3px solid #fff;
+}

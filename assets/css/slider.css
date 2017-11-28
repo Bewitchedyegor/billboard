@@ -1,0 +1,387 @@
+/* slider general styles*/
+main {
+	margin-top: 62px;
+	min-width: 1920px;
+}
+
+main a:hover {
+	text-decoration: none;
+}
+
+main span { 
+    position: absolute;
+    width: 391px;
+    height: 391px;
+    margin-left: -195px;
+    z-index: 998;
+    background-image: url(../img/empty.png);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h2 {
+	color: #fff;
+	font-family: 'UaBrandBlack', sans-serif;
+	font-size: 25px;
+	padding-top: 8px;	
+}
+
+#slider {
+	position: relative;
+	overflow: hidden;
+	margin-left: -11%;
+}
+
+#slider ul {
+	position: relative;
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+#slider ul li {
+	display: flex;
+	justify-content: center;
+	position: relative;
+  	float: left;
+  	margin: 0;
+  	padding: 0;
+  	display: -webkit-inline-box;
+    -webkit-box-pack: center;
+}
+
+/* slider controls */
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.controls {
+	width: 82%;
+	position: absolute;
+	margin-top: 210px;
+	z-index: 999; 
+}
+
+.browseRight, .browseLeft {
+	background: url(../img/browseRight.png) center no-repeat;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	display: block;
+	background-color: rgba(1,4,6,0.6);
+	cursor: pointer;
+	float: right;
+	z-index: inherit;
+}
+
+.browseLeft {
+	background: url(../img/browseLeft.png) center no-repeat;
+	background-color: rgba(1,4,6,0.6);
+	float: left;
+}
+
+/* images */
+#img1 {
+	background: url(../img/evro.png) -78px;
+}
+
+#img2 {
+	background: url(../img/play.png) center -5px;
+}
+
+#img3 {
+	background: url(../img/concert.png) -60px;	
+}
+
+#img4 {
+	background: url(../img/play2.png) center;
+}
+
+#img5 {
+	background: url(../img/sport.png) -22px;
+}
+
+#img6 {
+	background: url(../img/concert2.png) center;
+}
+
+#img7 {
+	background: url(../img/concert3.png) -19px;
+}
+
+#img8 {
+	background: url(../img/concert4.png) center;
+}
+
+#img9 {
+	background: url(../img/opera.png) center;
+}
+
+/* left rear part */
+.leftRearPart {
+	width: 409px;
+}
+
+.leftRearPart .date.right {
+	margin: 0;
+    position: initial;
+    float: right;
+}
+
+.leftRearPart .date.right span {
+    margin-left: -54px;
+}
+
+.leftRearPart .date.left {
+	margin-top: 225px;
+}
+
+.leftRearPart .date.left span {
+	left: 0;
+	margin-left: 0;
+}
+
+.leftRearPart .medium {
+	margin: 142px 0 0 -22px;
+}
+
+.leftRearPart .medium span {
+	left: 0;
+	margin-left: 0;
+}
+
+.leftRearPart .small {
+	margin: 0;
+    position: initial;
+    float: left;
+}
+
+.leftRearPart .small span {
+	margin-left: 16px;
+}
+
+.leftRearPart .small .type {
+    margin-top: 26px;
+}
+
+/* left part */
+.leftPart {
+	width: 340px;
+}
+
+.leftPart .date {
+	margin-top: 278px;
+}
+
+.leftPart .date span {
+	left: 0;
+	margin-left: 0;
+}
+
+.leftPart .medium, .leftPart .medium .date, .leftPart .small .date {
+	margin-top: 0;
+}
+.leftPart .medium {
+	position: inherit;
+    float: left;
+}
+.leftPart .medium span {
+    margin-left: -126px;
+}
+
+.leftPart .small {
+	position: inherit;
+	margin: 0;
+	float: right;
+}
+.leftPart .small span {
+    margin-left: -89px;
+}
+
+.leftPart .small .type {
+	margin-top: 35px;
+    position: absolute;
+    margin-left: -40px;
+}
+
+/* right part */
+.rightPart {
+	width: 413px;
+}
+
+.rightPart .date {
+	margin: 29px 0 0 24px;
+}
+
+.rightPart .date.addEvent span, .rightPart .date span, 
+.rightPart .small span, .rightPart .medium span {
+	left: 0;
+    margin-left: 0;
+}
+
+.date.addEvent {
+	background: url(../img/addEvent.png) no-repeat center 21px;
+	background-color: #e9eefa;
+	border: 1px solid #7990e3;
+	margin: 236px 0 0 314px;
+}
+
+.date.addEvent p {
+	color: #7990e3;
+	font-size: 14px;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	padding-top: 50px;
+}
+
+/* rear right part */
+.rearRightPart {
+	width: 362px;
+}
+
+.rearRightPart .date {
+	margin-top: 139px;
+	position: initial;
+    float: right;
+}
+
+.rearRightPart .small {
+	margin-top: 266px;
+}
+
+.rearRightPart .medium, .rearRightPart .medium .date, .rearRightPart .small .date {
+	margin-top: 0;
+}
+
+.rearRightPart .medium span, .rearRightPart .small span, .rearRightPart .date span {
+	left: initial;
+    margin-left: 0;
+}
+
+/* central part, general slider styles */
+.central, .medium, .small {
+	background-color: #042d41; 
+	height: 391px;
+	width: 391px;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+}
+
+.central i {
+	background: url(../img/seeEvent.png);
+	width: 35px;
+	height: 38px;
+	display: inline-block; 
+	margin-top: 7px;	
+}
+
+.central .date, .medium .date, .small .date {
+	display: block;
+	position: inherit;
+}
+
+.date {
+	width: 107px;
+	height: 107px;
+	background: #ff3546;
+	border-radius: 50%;
+	padding-top: 16px;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+}
+
+.date span, .medium span, .small span {
+	width: 107px;
+	height: 107px;
+	margin-top: -16px;
+}
+
+.date h3 {
+	font-size: 37px;
+	font-family: 'UaBrandBlack', sans-serif;	
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.date h4 {
+	font-size: 17.66px;
+	font-family: 'UaBrandBold', sans-serif;	
+	color: #fff;
+}
+
+.type {
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+  	font-weight: 300;
+  	background: #ee7a30;
+  	width: auto;
+  	height: 24px;
+  	padding: 0 18px;
+  	margin: 59px auto 0;
+  	display: inline-block;
+  	line-height: 22px;
+}
+
+/* medium image */
+.medium {
+	width: 253px;
+	height: 253px;
+	margin-top: 171px;
+	position: absolute;
+}
+
+.medium span {
+	width: 253px;
+	height: 253px;
+	margin-top: 0;
+}
+
+.medium h2 {
+	font-size: 20px;
+}
+
+.medium .date, .small .date {
+	height: 49px;
+	width: 49px;
+	padding-top: 8px;
+	margin-left: 15px;
+}
+
+.medium .date h3, .small .date h3 {
+	font-size: 17.39px;
+}
+
+.medium .date h4, .small .date h4 {
+	font-size: 10px;
+}
+
+.medium .type {
+	margin-top: 114px;
+}
+
+/* small image */
+.small {
+	width: 178px;
+	height: 177px;
+	position: absolute;
+	margin: 20px 0 0 200px;
+}
+
+.small span {
+	width: 178px;
+	height: 177px;
+	margin-top: 0;
+}
+
+.small .date {
+	margin-left: 0;
+}
+
+.small .type {
+	margin-top: 76px;
+}

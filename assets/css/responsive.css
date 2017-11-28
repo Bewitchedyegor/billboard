@@ -1,0 +1,79 @@
+@media (max-width: 317px) {
+	#search, #date, #city, button {
+		width: 99%;
+		margin-bottom: -12px;
+	}
+	.form-group i {
+		margin: 39px 0 0 5px;
+	}
+	.monthsList li {
+		height: 60px;
+		line-height: 60px;
+	}
+	button {
+		margin-top: 24px;
+	}
+}
+
+@media (min-width: 318px) and (max-width: 496px) {
+	#search {
+		width: 99%;
+		margin-bottom: 5px;
+	}
+	#date {
+		width: 52%;	
+		margin-left: -4px;	
+	}
+	#city {
+		width: 45%;
+		margin-left: -1px;	
+	}
+	button {
+		margin-top: 5px;
+		width: 99%;
+	}
+}
+
+@media (min-width: 496px) and (max-width: 992px) {
+	header {
+		margin-top: 20px;
+	}
+    footer li {
+        width: 16.6%!important;
+    }
+    button {
+    	width: 29.4%;
+    }
+    #search {
+    	width: 99%;
+    	margin-bottom: 5px;
+    }
+    #date {
+    	width: 26.8%;
+    }
+    #city {
+    	width: 38.8%;
+    	margin-right: 5px;
+    }
+    #slider {
+    	margin-left: -36%!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	button {
+		width: 31%;
+	}
+}
+
+@media (width: 992px) {
+	button {
+		width: 32%;
+	}
+}
+
+@media (min-width: 996px) and (max-width: 1200px) {
+	button {
+		width: 22.9%;		
+	}
+}
